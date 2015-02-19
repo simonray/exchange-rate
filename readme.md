@@ -18,9 +18,9 @@ Provider.Google.Rate("GBP", "EUR");
 ```
 
 ##Supported Providers
-- [Google Finance](http://www.google.com/finance)
-- [Rate Exchange](https://rate-exchange.appspot.com/)
-- [Yahoo Finance](https://finance.yahoo.com/)
+* [Google Finance](http://www.google.com/finance)
+* [Rate Exchange](https://rate-exchange.appspot.com/)
+* [Yahoo Finance](https://finance.yahoo.com/)
 
 ## Acknowledgements
-[Swap](https://github.com/florianv/swap/)
+* [Swap](https://github.com/florianv/swap/)
