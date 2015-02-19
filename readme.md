@@ -1,4 +1,4 @@
-#exchange-rate (C#) [![nuget package](https://badge.fury.io/nu/exchange-rate.png)](http://badge.fury.io/nu/exchange-rate.png)
+#exchange-rate (C#) [![nuget package](https://img.shields.io/nuget/v/exchange-rate.png?style=flat-square)](https://www.nuget.org/profiles/simonray)
 
 An easy to use exchange-rate checker. Providers include Google, Rate-Exchange and Yahoo.
 
