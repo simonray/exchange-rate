@@ -11,7 +11,7 @@ using System.Web;
 namespace ExchangeRate.Providers
 {
     /// <exclude />
-    public class RateExchange : BaseProvider
+    public class RateExchangeProvider : BaseProvider
     {
         /// <exclude />
         const string URL = "http://rate-exchange.appspot.com/currency?from={0}&to={1}";

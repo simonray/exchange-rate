@@ -40,6 +40,20 @@ namespace ExchangeRate
         {
             return Factory.Make(provider).Fetch(source, quote).Value;
         }
+
+        /// <exclude />
+        public static double Convert(this Provider provider, string source, string quote, double value)
+        {
+            var rate = Factory.Make(provider).Fetch(source, quote);
+            return new Calc(rate, value).Result;
+        }
+
+        /// <exclude />
+        public static double Convert(this Provider provider, Iso4217 source, Iso4217 quote, double value)
+        {
+            var rate = Factory.Make(provider).Fetch(source, quote);
+            return new Calc(rate, value).Result;
+        }
     }
 
     /// <exclude />
@@ -55,7 +69,7 @@ namespace ExchangeRate
                 case Provider.Yahoo:
                     return new YahooProvider();
                 case Provider.RateExchange:
-                    return new RateExchange();
+                    return new RateExchangeProvider();
                 default:
                     throw new NotImplementedException();
             }

@@ -48,6 +48,7 @@
     </Compile>
     <Compile Include="IProvider.cs" />
     <Compile Include="Iso4217.cs" />
+    <Compile Include="Model\Calc.cs" />
     <Compile Include="Model\Pair.cs" />
     <Compile Include="Model\Rate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

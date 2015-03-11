@@ -28,6 +28,7 @@ namespace ExchangeRate.Providers
             return Fetch(new Pair(source, quote));
         }
 
+        /// <exclude />
         public Rate Fetch(Iso4217 source, Iso4217 quote)
         {
             return Fetch(new Pair(source.ToString(), quote.ToString()));
