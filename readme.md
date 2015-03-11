@@ -28,10 +28,13 @@ Provider.Google.Convert(Iso4217.GBP, Iso4217.EUR, 500);
 
 #### 1.0.3 (11-03-15)
 * Support for value conversion.
+
 #### 1.0.2 (24-02-15)
 * Shorten namespaces.
+
 #### 1.0.1 (24-02-15)
 * Add support for ISO4217 codes.
+
 #### 1.0.0 (23-02-15)
 * Initial release.
 
