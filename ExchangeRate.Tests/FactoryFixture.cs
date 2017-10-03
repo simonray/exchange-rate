@@ -1,4 +1,6 @@
-﻿
+﻿// Copyright ©2017 Simonray (http://github.com/simonray). All rights reserved.
+// Licensed under the MIT License. See License.txt in the project root for license information.
+
 using ExchangeRate.Providers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -12,13 +14,6 @@ namespace ExchangeRate.Tests
         {
             var instance = Factory.Make(Provider.Google);
             Assert.IsInstanceOfType(instance, typeof(GoogleProvider));
-        }
-
-        [TestMethod]
-        public void Create_Rate_Exchange_Instance_Success()
-        {
-            var instance = Factory.Make(Provider.RateExchange);
-            Assert.IsInstanceOfType(instance, typeof(RateExchangeProvider));
         }
 
         [TestMethod]
