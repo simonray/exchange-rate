@@ -1,6 +1,4 @@
-﻿using System;
-using System.Net;
-
+﻿
 //http://stackoverflow.com/questions/4567313/uncompressing-gzip-response-from-webclient
 namespace System.Net
 {
