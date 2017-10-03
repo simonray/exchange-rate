@@ -1,6 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿
 using ExchangeRate.Providers;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ExchangeRate.Tests
 {
