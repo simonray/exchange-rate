@@ -67,8 +67,6 @@ namespace ExchangeRate
                     return new GoogleProvider();
                 case Provider.Yahoo:
                     return new YahooProvider();
-                case Provider.RateExchange:
-                    return new RateExchangeProvider();
                 default:
                     throw new NotImplementedException();
             }

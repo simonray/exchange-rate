@@ -54,7 +54,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\BaseProvider.cs" />
     <Compile Include="Providers\GoogleProvider.cs" />
-    <Compile Include="Providers\RateExchange.cs" />
     <Compile Include="Providers\YahooProvider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

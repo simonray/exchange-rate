@@ -12,8 +12,6 @@ namespace ExchangeRate
         Google,
         /// <exclude />
         Yahoo,
-        /// <exclude />
-        RateExchange,
     }
 
     /// <exclude />
