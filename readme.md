@@ -25,7 +25,7 @@ Provider.Google.Convert(Iso4217.GBP, Iso4217.EUR, 500);
 
 ## Change Log
 
-#### 1.0.4 (03-10-17)
+#### 1.0.5 (03-10-17)
 * Update url for Google provider
 * Drop Rate Exchange
 
