@@ -11,7 +11,7 @@ namespace ExchangeRate.Providers
     public class GoogleProvider : BaseProvider
     {
         /// <exclude />
-        const string URL = "http://www.google.com/finance/converter?a=1&from={0}&to={1}";
+        const string URL = "http://finance.google.com/finance/converter?a=1&from={0}&to={1}";
 
         /// <exclude />
         public override string Name { get { return "Google"; } }
